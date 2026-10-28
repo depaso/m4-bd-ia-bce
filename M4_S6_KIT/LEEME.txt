@@ -1,0 +1,6 @@
+Kit sesion 6 (martes 27 de octubre de 2026)
+Copiar a la raiz del repositorio m4-bd-ia-bce: avisar.py, agente_vigilante.py, REGLAS.md.
+devcontainer.json va en .devcontainer/ (reemplaza al actual: solo agrega "pip install schedule" al final del postCreateCommand).
+regex_demo.py y clasificador_demo.py son los ejemplos del guion (datos sinteticos).
+Orden para probar: python regex_demo.py ; python clasificador_demo.py ; python agente_vigilante.py (en otra terminal: touch datos/exportaciones.csv)
+Sin credenciales, avisar() solo escribe en avisos.log.
